@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    position: fixed;
+    background: #A8D1DF;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container .sidepic{
+    height: 100vh;
+    width: 45%;
+}
+
+.container .sidepic img{
+    height: 100%;
+    width: 90%;
+}
+
+.container .sponsor{
+    height: 100vh;
+    width: 55%;
+}
+
+.container .sponsor .main{
+    font-size: 8vh;
+    padding-top: 60px;
+    color: black; 
+}
+
+.container .sponsor .s{
+    padding-top: 40px;
+    font-size: 4vh;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    *{margin: 0; padding: 0;}
+    .container {height: 100vh; width: 100%; flex-direction: column; position: relative; background-image: url(../img/money.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;}
+    .container .sidepic {display: none;}
+    .container .sponsor { width: 100%; height: 100%;}
+    .container .sponsor .main {padding: 10px; color: black;}
+    .container .sponsor p{background-color: #bba88a;}
+    .container .sponsor .s { padding: 10px; color: #e5d5c6; }
+}

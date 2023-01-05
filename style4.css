@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Teko';
+    
+}
+
+.container{
+    background-color: #C70039;
+    height: 100vh;
+}
+
+.member{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.head{
+    font-size: 8vh;
+    text-align: center;
+}
+
+.member .Crish{
+    height: 85vh;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    
+    .member.Robert{
+    height: 85vh;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member .Johney{
+    height: 85vh;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member .Crish img{
+    height: 330px;
+    width: 300px; 
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.member .Robert img{
+    height: 330px;
+    width: 300px;
+    padding: 20px; 
+    border-radius: 50px;
+}
+
+.member .Johney img{
+    height: 330px;
+    width: 300px; 
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.member h1{
+    font-size: 5vh;
+}
+
+.member p{
+    font-size: 3vh;
+}
+
+@media screen and (max-width: 768px){
+    .container{height: 100%; width: 100%;}
+    .container .member{flex-direction: column;}
+    .container .member .Dwayne{width: 100vh; height: auto;}
+    .container .member .Oprah{width: 100vh; height:auto}
+        .container .member .Barack{width: 100vh; height: auto;} }
